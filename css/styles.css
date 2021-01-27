@@ -1,24 +1,27 @@
+html{
+    background-color: #f8f1f1;
+}
 .social{
-    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/header.jpg);
-   
+    height: 100px;
+    background-color: #f8f1f1;
+    display: flex;
+    align-items: flex-end;
    
 }
 .social-icons{
-    color: #e99115;
-    height: 200px;
+    color: orange;
     font-size: 2.2em;
     display: flex;
-    align-items: flex-end;
-    padding: 0 0 30px 30px;
+    padding: 0 0 20px 30px;
 }
 .social i{
     margin-right:20px;
 }
+
 nav{
-    background-color: #5eaaa8;
-    font-size: 1.2em;
-    border-top: solid 1px orange;
-    border-bottom: solid 1px orange;
+    background-color: #5e95aa;
+    /*border-top: solid 1px orange;
+    border-bottom: solid 1px orange;*/
 }
 
 .navbar a{
@@ -63,6 +66,9 @@ form{
     border-radius: 2px;
 }
 /*MAIN CONTENT*/
+main{
+    background-color: #f8f1f1;
+}
 .featured{
     background-image: url(../images/featured-image-1.jpg);
     background-size: cover;
@@ -76,4 +82,7 @@ form{
     text-shadow: 2px 2px 3px #000000;
     font-size: 4em;
     font-weight: bold;
+}
+article{
+    margin: 30px;
 }
